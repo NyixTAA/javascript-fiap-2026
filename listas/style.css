@@ -2,8 +2,8 @@
 
 button {
     color: black;
-    width: 100px;
-    border-radius: 10px;
+    width: 150px;
+    border-radius: 5px;
     height: 40px;
     text-align: center;
     border: none
@@ -12,29 +12,39 @@ button {
 input {
     color: black;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 40px;
     text-align: center;
+    outline: none;
     border: none
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #000000;
-    width: 100vw;
+    background-image:url("https://i.pinimg.com/originals/87/a1/d8/87a1d82fb5bc9d1e9baee8d72739b656.gif");
+    width: 100dvw;
+    height: 100dvh;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .principal {
     color: white;
+    background-color: #040204;
+    padding: 100px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 500px;
-    gap: 15px
+    gap: 50px
 }
 
 .content {
